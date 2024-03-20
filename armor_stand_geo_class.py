@@ -159,7 +159,7 @@ class armorstandgeo:
             {"name": layer_name, "parent": "ghost_blocks"})#, "pivot": [-8, 0, 8]})
 
     def make_block(self, x, y, z, block_name, rot=None, top=False,data=0, trap_open=False, parent=None,variant="default", big = False):
-        # make_block handles all the block processing, This function does need cleanup and probably should be broken into other helperfunctions for ledgiblity.
+        # make_block handles all the block processing, This function does need cleanup and probably should be broken into other helperfunctions for legiblity.
         block_type = self.defs[block_name]
         if block_type!="ignore":
             ghost_block_name = "block_{}_{}_{}".format(x, y, z)
@@ -178,6 +178,11 @@ class armorstandgeo:
                 shape_variant = "open"
             elif block_type == "lever" and trap_open:
                 shape_variant = "on"
+            elif block_type == "door" and top:
+                # Tops of doors are treated as a second block type for easier retexturing.
+                block_type = "door_top"
+                block_name = block_name + "_top"
+                shape_variant = "default"
             elif top:
                 shape_variant = "top"
 
@@ -209,7 +214,8 @@ class armorstandgeo:
             uv_idx=0
 
             for i in range(len(block_shapes["size"])):
-                uv = self.block_name_to_uv(block_name,variant=variant,shape_variant=shape_variant,index=i)
+                uv = copy.deepcopy(
+                    self.block_name_to_uv(block_name,variant=variant,shape_variant=shape_variant,index=i))
                 block={}
                 if len(block_uv["uv_sizes"]["up"])>i:
                     uv_idx=i
@@ -226,7 +232,6 @@ class armorstandgeo:
                 if "rotation" in block_shapes.keys():
                     block["rotation"] = block_shapes["rotation"][i]
                     
-
                 blockUV=dict(uv)
                 for dir in ["up", "down", "east", "west", "north", "south"]:
                     blockUV[dir]["uv"][0] += block_uv["offset"][dir][uv_idx][0]
@@ -264,7 +269,9 @@ class armorstandgeo:
 
     def extend_uv_image(self, new_image_filename):
         # helper function that just appends to the uv array to make things
-        image = Image.open(new_image_filename).convert("RGB")
+        image = Image.open(new_image_filename)
+        if image.mode != "RGBA":
+            image = image.convert("RGBA")
         impt = array(image)
         shape=list(impt.shape)
         if shape[0]>16:
@@ -358,19 +365,19 @@ class armorstandgeo:
             textures["up"] = textureLayout
             textures["down"] = textureLayout
         for key in textures.keys():
-            
-            if type(texturedata[textures[key]]["textures"]) is str:
-                textures[key] = texturedata[textures[key]]["textures"]
-            elif type(texturedata[textures[key]]["textures"]) is list:
+            textureInfo = texturedata[textures[key]]["textures"]
+            if type(textureInfo) is str:
+                textures[key] = textureInfo
+            elif type(textureInfo) is list:
                 index=0
-                if variant[0] in self.block_variants.keys():
-                    index=self.block_variants[variant[0]][variant[1] ]
+                if blockName in self.block_variants.keys():
+                    index=self.block_variants[blockName][variant]
                 if debug:
                     print(index)
                     print(key)
-                    print(texturedata[textures[key]]["textures"])
-                    print(texturedata[textures[key]]["textures"][index])
-                textures[key] = texturedata[textures[key]]["textures"][index]
+                    print(textureInfo)
+                    print(textureInfo[index])
+                textures[key] = textureInfo[index]
 
             
         return textures

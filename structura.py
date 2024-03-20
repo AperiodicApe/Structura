@@ -121,7 +121,7 @@ def box_checked():
         export_check.grid(row=r, column=1)
         saveButton.grid(row=r, column=2)
         r +=1
-        big_build_check.grid(row=r, column=0,columnspan=2)   
+        big_build_check.grid(row=r, column=0,columnspan=2)
 def add_model():
     valid=True
     if big_build.get()==1:

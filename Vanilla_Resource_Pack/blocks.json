@@ -797,11 +797,11 @@
   },
   "crimson_door": {
     "sound": "wood",
-    "textures": {
-      "down": "crimson_door_lower",
-      "side": "crimson_door_top",
-      "up": "crimson_door_lower"
-    }
+    "textures": "crimson_door_lower"
+  },
+  "crimson_door_top": {
+    "sound": "wood",
+    "textures": "crimson_door_top"
   },
   "crimson_double_slab": {
     "sound": "wood",
@@ -942,11 +942,11 @@
   },
   "dark_oak_door": {
     "sound": "wood",
-    "textures": {
-      "down": "door_lower",
-      "side": "door_upper",
-      "up": "door_lower"
-    }
+    "textures": "dark_oak_door_lower"
+  },
+  "dark_oak_door_top": {
+    "sound": "wood",
+    "textures": "dark_oak_door_upper"
   },
   "dark_oak_fence_gate": {
     "sound": "wood",
@@ -1686,11 +1686,11 @@
   },
   "iron_door": {
     "sound": "metal",
-    "textures": {
-      "down": "door_lower",
-      "side": "door_upper",
-      "up": "door_lower"
-    }
+    "textures": "iron_door_lower"
+  },
+  "iron_door_top": {
+    "sound": "metal",
+    "textures": "iron_door_upper"
   },
   "iron_ore": {
     "sound": "stone",
@@ -1724,11 +1724,11 @@
   },
   "jungle_door": {
     "sound": "wood",
-    "textures": {
-      "down": "door_lower",
-      "side": "door_upper",
-      "up": "door_lower"
-    }
+    "textures": "jungle_door_lower"
+  },
+  "jungle_door_top": {
+    "sound": "wood",
+    "textures": "jungle_door_upper"
   },
   "jungle_fence_gate": {
     "sound": "wood",
@@ -2040,11 +2040,11 @@
   },
   "mangrove_door": {
     "sound": "wood",
-    "textures": {
-      "down": "mangrove_door_bottom",
-      "side": "mangrove_door_top",
-      "up": "mangrove_door_bottom"
-    }
+    "textures": "mangrove_door_bottom"
+  },
+  "mangrove_door_top": {
+    "sound": "wood",
+    "textures": "mangrove_door_top"
   },
   "mangrove_double_slab": {
     "sound": "wood",
@@ -3067,11 +3067,11 @@
   },
   "spruce_door": {
     "sound": "wood",
-    "textures": {
-      "down": "door_lower",
-      "side": "door_upper",
-      "up": "door_lower"
-    }
+    "textures": "spruce_door_lower"
+  },
+  "spruce_door_top": {
+    "sound": "wood",
+    "textures": "spruce_door_upper"
   },
   "spruce_fence_gate": {
     "sound": "wood",
@@ -3520,11 +3520,11 @@
   },
   "warped_door": {
     "sound": "wood",
-    "textures": {
-      "down": "warped_door_lower",
-      "side": "warped_door_top",
-      "up": "warped_door_lower"
-    }
+    "textures": "warped_door_lower"
+  },
+  "warped_door_top": {
+    "sound": "wood",
+    "textures": "warped_door_top"
   },
   "warped_double_slab": {
     "sound": "wood",
@@ -3811,11 +3811,19 @@
   },
   "wooden_door": {
     "sound": "wood",
-    "textures": {
-      "down": "door_lower",
-      "side": "door_upper",
-      "up": "door_lower"
-    }
+    "textures": "oak_door_lower"
+  },
+  "wooden_door_top": {
+    "sound": "wood",
+    "textures": "oak_door_upper"
+  },
+  "oak_door": {
+    "sound": "wood",
+    "textures": "oak_door_lower"
+  },
+  "oak_door_top": {
+    "sound": "wood",
+    "textures": "oak_door_upper"
   },
   "wooden_pressure_plate": {
     "sound": "wood",
@@ -4071,11 +4079,11 @@
   },
   "bamboo_door": {
     "sound": "bamboo_wood",
-    "textures": {
-      "down": "bamboo_door_bottom",
-      "side": "bamboo_door_top",
-      "up": "bamboo_door_bottom"
-    }
+    "textures": "bamboo_door_bottom"
+  },
+  "bamboo_door_top": {
+    "sound": "bamboo_wood",
+    "textures": "bamboo_door_top"
   },
   "bamboo_double_slab": {
     "sound": "bamboo_wood",
@@ -4188,11 +4196,11 @@
   },
   "cherry_door": {
     "sound": "cherry_wood",
-    "textures": {
-      "down": "cherry_door_bottom",
-      "side": "cherry_door_top",
-      "up": "cherry_door_bottom"
-    }
+    "textures": "cherry_door_bottom"
+  },
+  "cherry_door_top": {
+    "sound": "cherry_wood",
+    "textures": "cherry_door_top"
   },
   "cherry_double_slab": {
     "sound": "cherry_wood",
@@ -4472,7 +4480,11 @@
   },
   "copper_door": {
     "sound": "copper",
-    "textures": "copper_door"
+    "textures": "copper_door_bottom"
+  },
+  "copper_door_top": {
+    "sound": "copper",
+    "textures": "copper_door_top"
   },
   "copper_grate": {
     "sound": "copper",
@@ -4488,7 +4500,11 @@
   },
   "exposed_copper_door": {
     "sound": "copper",
-    "textures": "exposed_copper_door"
+    "textures": "exposed_copper_door_bottom"
+  },
+  "exposed_copper_door_top": {
+    "sound": "copper",
+    "textures": "exposed_copper_door_top"
   },
   "exposed_copper_grate": {
     "sound": "copper",
@@ -4504,7 +4520,11 @@
   },
   "oxidized_copper_door": {
     "sound": "copper",
-    "textures": "oxidized_copper_door"
+    "textures": "oxidized_copper_door_bottom"
+  },
+  "oxidized_copper_door_top": {
+    "sound": "copper",
+    "textures": "oxidized_copper_door_bottom"
   },
   "oxidized_copper_grate": {
     "sound": "copper",
@@ -4520,7 +4540,11 @@
   },
   "waxed_copper_door": {
     "sound": "copper",
-    "textures": "copper_door"
+    "textures": "copper_door_bottom"
+  },
+  "waxed_copper_door_top": {
+    "sound": "copper",
+    "textures": "copper_door_top"
   },
   "waxed_copper_grate": {
     "sound": "copper",
@@ -4536,7 +4560,11 @@
   },
   "waxed_exposed_copper_door": {
     "sound": "copper",
-    "textures": "exposed_copper_door"
+    "textures": "exposed_copper_door_bottom"
+  },
+  "waxed_exposed_copper_door_top": {
+    "sound": "copper",
+    "textures": "exposed_copper_door_top"
   },
   "waxed_exposed_copper_grate": {
     "sound": "copper",
@@ -4552,7 +4580,11 @@
   },
   "waxed_oxidized_copper_door": {
     "sound": "copper",
-    "textures": "oxidized_copper_door"
+    "textures": "oxidized_copper_door_bottom"
+  },
+  "waxed_oxidized_copper_door_top": {
+    "sound": "copper",
+    "textures": "oxidized_copper_door_top"
   },
   "waxed_oxidized_copper_grate": {
     "sound": "copper",
@@ -4568,7 +4600,11 @@
   },
   "waxed_weathered_copper_door": {
     "sound": "copper",
-    "textures": "weathered_copper_door"
+    "textures": "weathered_copper_door_bottom"
+  },
+  "waxed_weathered_copper_door_top": {
+    "sound": "copper",
+    "textures": "weathered_copper_door_top"
   },
   "waxed_weathered_copper_grate": {
     "sound": "copper",
@@ -4584,7 +4620,11 @@
   },
   "weathered_copper_door": {
     "sound": "copper",
-    "textures": "weathered_copper_door"
+    "textures": "weathered_copper_door_bottom"
+  },
+  "weathered_copper_door_top": {
+    "sound": "copper",
+    "textures": "weathered_copper_door_top"
   },
   "weathered_copper_grate": {
     "sound": "copper",

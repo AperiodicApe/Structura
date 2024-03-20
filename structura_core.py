@@ -5,9 +5,10 @@ import render_controller_class as rcc
 import big_render_controller as brc
 from shutil import copyfile
 from zipfile import ZIP_DEFLATED, ZipFile
-import time
+import numpy
 import os
 import sys
+import time
 
 debug=False
 
@@ -112,14 +113,13 @@ class structura:
             self.structure_files[model_name]['offsets'][0]-=xlen.item()+7
             self.structure_files[model_name]['offsets'][2]-=zlen.item()+7
         armorstand = asgc.armorstandgeo(model_name,alpha = self.opacity, size=[xlen, ylen, zlen], offsets=self.structure_files[model_name]['offsets'])
-
+        saved_rots = numpy.zeros((xlen, ylen, zlen), dtype=numpy.int16)
         if ylen > self.longestY:
             update_animation=True
             longestY = ylen
         else:
             update_animation=False
         for y in range(ylen):
-            
             #creates the layer for controlling. Note there is implied formating here
             #for layer names
             if y<12:
@@ -134,11 +134,12 @@ class structura:
                 block = struct2make.get_block(x, y, z)
                 blk_name=block["name"].replace("minecraft:", "")
                 blockProp=self._process_block(block)
-                rot = blockProp[0]
-                top = blockProp[1]
-                variant = blockProp[2]
-                open_bit = blockProp[3]
-                data = blockProp[4]
+                (rot, top, variant, open_bit, data) = self._process_block(block)
+                if top and y > 0:
+                    # Door-top blocks inherit their rotation from the block below,
+                    # which are saved into |saved_rots|.
+                    rot = saved_rots[x, y-1, z]
+                saved_rots[x, y, z] = rot
                 if debug:
                     armorstand.make_block(x, y, z, blk_name, rot = rot, top = top,variant = variant, trap_open=open_bit, data=data, big = export_big)
                 else:

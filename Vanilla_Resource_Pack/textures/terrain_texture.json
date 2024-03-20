@@ -64,6 +64,12 @@
     "azalea_top": {
       "textures": "textures/blocks/azalea_top"
     },
+    "bamboo_door_bottom": {
+      "textures": "textures/blocks/bamboo_door_bottom"
+    },
+    "bamboo_door_top": {
+      "textures": "textures/blocks/bamboo_door_top"
+    },
     "bamboo_carried": {
       "textures": "textures/items/bamboo"
     },
@@ -1017,6 +1023,21 @@
         "textures/blocks/door_iron_upper"
       ]
     },
+    "oak_door_lower" : {"textures" : "textures/blocks/door_wood_lower"},
+    "spruce_door_lower" : {"textures" : "textures/blocks/door_spruce_lower"},
+    "birch_door_lower" : {"textures" : "textures/blocks/door_birch_lower"},
+    "jungle_door_lower" : {"textures" : "textures/blocks/door_jungle_lower"},
+    "acacia_door_lower" : {"textures" : "textures/blocks/door_acacia_lower"},
+    "dark_oak_door_lower" : {"textures" : "textures/blocks/door_dark_oak_lower"},
+    "iron_door_lower" : {"textures" : "textures/blocks/door_iron_lower"},
+    "oak_door_upper" : {"textures" : "textures/blocks/door_wood_upper"},
+    "spruce_door_upper" : {"textures" : "textures/blocks/door_spruce_upper"},
+    "birch_door_upper" : {"textures" : "textures/blocks/door_birch_upper"},
+    "jungle_door_upper" : {"textures" : "textures/blocks/door_jungle_upper"},
+    "acacia_door_upper" : {"textures" : "textures/blocks/door_acacia_upper"},
+    "dark_oak_door_upper" : {"textures" : "textures/blocks/door_dark_oak_upper"},
+    "iron_door_upper" : {"textures" : "textures/blocks/door_iron_upper"},
+
     "double_plant_bottom": {
       "textures": [
         "textures/blocks/double_plant_sunflower_bottom",
@@ -3776,6 +3797,66 @@
     },
     "yellow_glazed_terracotta": {
       "textures": "textures/blocks/glazed_terracotta_yellow"
+    },
+    "copper_bulb": {
+      "textures" : "textures/blocks/copper_bulb"
+    },
+    "copper_door_bottom": {
+      "textures" : "textures/blocks/copper_door_bottom"
+    },
+    "copper_door_top": {
+      "textures" : "textures/blocks/copper_door_top"
+    },
+    "copper_grate": {
+      "textures" : "textures/blocks/copper_grate"
+    },
+    "copper_trapdoor": {
+      "textures" : "textures/blocks/copper_trapdoor"
+    },
+    "exposed_copper_bulb": {
+      "textures" : "textures/blocks/exposed_copper_bulb"
+    },
+    "exposed_copper_door_bottom": {
+      "textures" : "textures/blocks/exposed_copper_door_bottom"
+    },
+    "exposed_copper_door_top": {
+      "textures" : "textures/blocks/exposed_copper_door_top"
+    },
+    "exposed_copper_grate": {
+      "textures" : "textures/blocks/exposed_copper_grate"
+    },
+    "exposed_copper_trapdoor": {
+      "textures" : "textures/blocks/exposed_copper_trapdoor"
+    },
+    "oxidized_copper_bulb": {
+      "textures" : "textures/blocks/oxidized_copper_bulb"
+    },
+    "oxidized_copper_door_bottom": {
+      "textures" : "textures/blocks/oxidized_copper_door_bottom"
+    },
+    "oxidized_copper_door_top": {
+      "textures" : "textures/blocks/oxidized_copper_door_top"
+    },
+    "oxidized_copper_grate": {
+      "textures" : "textures/blocks/oxidized_copper_grate"
+    },
+    "oxidized_copper_trapdoor": {
+      "textures" : "textures/blocks/oxidized_copper_trapdoor"
+    },
+    "weathered_copper_bulb": {
+      "textures" : "textures/blocks/weathered_copper_bulb"
+    },
+    "weathered_copper_door_bottom": {
+      "textures" : "textures/blocks/weathered_copper_door_bottom"
+    },
+    "weathered_copper_door_top": {
+      "textures" : "textures/blocks/weathered_copper_door_top"
+    },
+    "weathered_copper_grate": {
+      "textures" : "textures/blocks/weathered_copper_grate"
+    },
+    "weathered_copper_trapdoor": {
+      "textures" : "textures/blocks/weathered_copper_trapdoor"
     }
   },
   "texture_name": "atlas.terrain"
