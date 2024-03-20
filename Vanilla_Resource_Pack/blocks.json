@@ -4465,5 +4465,133 @@
   "yellow_carpet": {
     "sound": "cloth",
     "textures": "wool_colored_yellow"
+  },
+  "copper_bulb": {
+    "sound": "copper",
+    "textures": "copper_bulb"
+  },
+  "copper_door": {
+    "sound": "copper",
+    "textures": "copper_door"
+  },
+  "copper_grate": {
+    "sound": "copper",
+    "textures": "copper_grate"
+  },
+  "copper_trapdoor": {
+    "sound": "copper",
+    "textures": "copper_trapdoor"
+  },
+  "exposed_copper_bulb": {
+    "sound": "copper",
+    "textures": "exposed_copper_bulb"
+  },
+  "exposed_copper_door": {
+    "sound": "copper",
+    "textures": "exposed_copper_door"
+  },
+  "exposed_copper_grate": {
+    "sound": "copper",
+    "textures": "exposed_copper_grate"
+  },
+  "exposed_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "exposed_copper_trapdoor"
+  },
+  "oxidized_copper_bulb": {
+    "sound": "copper",
+    "textures": "oxidized_copper_bulb"
+  },
+  "oxidized_copper_door": {
+    "sound": "copper",
+    "textures": "oxidized_copper_door"
+  },
+  "oxidized_copper_grate": {
+    "sound": "copper",
+    "textures": "oxidized_copper_grate"
+  },
+  "oxidized_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "oxidized_copper_trapdoor"
+  },
+  "waxed_copper_bulb": {
+    "sound": "copper",
+    "textures": "copper_bulb"
+  },
+  "waxed_copper_door": {
+    "sound": "copper",
+    "textures": "copper_door"
+  },
+  "waxed_copper_grate": {
+    "sound": "copper",
+    "textures": "copper_grate"
+  },
+  "waxed_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "copper_trapdoor"
+  },
+  "waxed_exposed_copper_bulb": {
+    "sound": "copper",
+    "textures": "exposed_copper_bulb"
+  },
+  "waxed_exposed_copper_door": {
+    "sound": "copper",
+    "textures": "exposed_copper_door"
+  },
+  "waxed_exposed_copper_grate": {
+    "sound": "copper",
+    "textures": "exposed_copper_grate"
+  },
+  "waxed_exposed_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "exposed_copper_trapdoor"
+  },
+  "waxed_oxidized_copper_bulb": {
+    "sound": "copper",
+    "textures": "oxidized_copper_bulb"
+  },
+  "waxed_oxidized_copper_door": {
+    "sound": "copper",
+    "textures": "oxidized_copper_door"
+  },
+  "waxed_oxidized_copper_grate": {
+    "sound": "copper",
+    "textures": "oxidized_copper_grate"
+  },
+  "waxed_oxidized_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "oxidized_copper_trapdoor"
+  },
+  "waxed_weathered_copper_bulb": {
+    "sound": "copper",
+    "textures": "weathered_copper_bulb"
+  },
+  "waxed_weathered_copper_door": {
+    "sound": "copper",
+    "textures": "weathered_copper_door"
+  },
+  "waxed_weathered_copper_grate": {
+    "sound": "copper",
+    "textures": "weathered_copper_grate"
+  },
+  "waxed_weathered_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "weathered_copper_trapdoor"
+  },
+  "weathered_copper_bulb": {
+    "sound": "copper",
+    "textures": "weathered_copper_bulb"
+  },
+  "weathered_copper_door": {
+    "sound": "copper",
+    "textures": "weathered_copper_door"
+  },
+  "weathered_copper_grate": {
+    "sound": "copper",
+    "textures": "weathered_copper_grate"
+  },
+  "weathered_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "weathered_copper_trapdoor"
   }
 }

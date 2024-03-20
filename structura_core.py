@@ -7,6 +7,7 @@ from shutil import copyfile
 from zipfile import ZIP_DEFLATED, ZipFile
 import time
 import os
+import sys
 
 debug=False
 
@@ -179,6 +180,7 @@ class structura:
         os.rename(f'{self.pack_name}.zip',f'{self.pack_name}.mcpack')
         shutil.rmtree(self.pack_name)
         print("Pack Making Completed")
+        sys.stdout.flush()
         self.timers["finished"]=time.time()-self.timers["previous"]
         self.timers["total"]=time.time()-self.timers["start"]
         

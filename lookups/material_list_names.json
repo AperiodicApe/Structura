@@ -2480,5 +2480,101 @@
 	},
 	"minecraft:suspicious_sand": {
 		"default": "Suspicious Sand"
+	},
+	"minecraft:copper_bulb": {
+		"default": "Copper Bulb"
+	},
+	"minecraft:copper_door": {
+		"default": "Copper Door"
+	},
+	"minecraft:copper_grate": {
+		"default": "Copper Grate"
+	},
+	"minecraft:copper_trapdoor": {
+		"default": "Copper Trapdoor"
+	},
+	"minecraft:exposed_copper_bulb": {
+		"default": "Exposed Copper Bulb"
+	},
+	"minecraft:exposed_copper_door": {
+		"default": "Exposed Copper Door"
+	},
+	"minecraft:exposed_copper_grate": {
+		"default": "Exposed Copper Grate"
+	},
+	"minecraft:exposed_copper_trapdoor": {
+		"default": "Exposed Copper Trapdoor"
+	},
+	"minecraft:oxidized_copper_bulb": {
+		"default": "Oxidized Copper Bulb"
+	},
+	"minecraft:oxidized_copper_door": {
+		"default": "Oxidized Copper Door"
+	},
+	"minecraft:oxidized_copper_grate": {
+		"default": "Oxidized Copper Grate"
+	},
+	"minecraft:oxidized_copper_trapdoor": {
+		"default": "Oxidized Copper Trapdoor"
+	},
+	"minecraft:waxed_copper_bulb": {
+		"default": "Waxed Copper Bulb"
+	},
+	"minecraft:waxed_copper_door": {
+		"default": "Waxed Copper Door"
+	},
+	"minecraft:waxed_copper_grate": {
+		"default": "Waxed Copper Grate"
+	},
+	"minecraft:waxed_copper_trapdoor": {
+		"default": "Waxed Copper Trapdoor"
+	},
+	"minecraft:waxed_exposed_copper_bulb": {
+		"default": "Waxed Exposed Copper Bulb"
+	},
+	"minecraft:waxed_exposed_copper_door": {
+		"default": "Waxed Exposed Copper Door"
+	},
+	"minecraft:waxed_exposed_copper_grate": {
+		"default": "Waxed Exposed Copper Grate"
+	},
+	"minecraft:waxed_exposed_copper_trapdoor": {
+		"default": "Waxed Exposed Copper Trapdoor"
+	},
+	"minecraft:waxed_oxidized_copper_bulb": {
+		"default": "Waxed Oxidized Copper Bulb"
+	},
+	"minecraft:waxed_oxidized_copper_door": {
+		"default": "Waxed Oxidized Copper Door"
+	},
+	"minecraft:waxed_oxidized_copper_grate": {
+		"default": "Waxed Oxidized Copper Grate"
+	},
+	"minecraft:waxed_oxidized_copper_trapdoor": {
+		"default": "Waxed Oxidized Copper Trapdoor"
+	},
+	"minecraft:waxed_weathered_copper_bulb": {
+		"default": "Waxed Weathered Copper Bulb"
+	},
+	"minecraft:waxed_weathered_copper_door": {
+		"default": "Waxed Weathered Copper Door"
+	},
+	"minecraft:waxed_weathered_copper_grate": {
+		"default": "Waxed Weathered Copper Grate"
+	},
+	"minecraft:waxed_weathered_copper_trapdoor": {
+		"default": "Waxed Weathered Copper Trapdoor"
+	},
+	"minecraft:weathered_copper_bulb": {
+		"default": "Weathered Copper Bulb"
+	},
+	"minecraft:weathered_copper_door": {
+		"default": "Weathered Copper Door"
+	},
+	"minecraft:weathered_copper_grate": {
+		"default": "Weathered Copper Grate"
+	},
+	"minecraft:weathered_copper_trapdoor": {
+		"default": "Weathered Copper Trapdoor"
 	}
 }
